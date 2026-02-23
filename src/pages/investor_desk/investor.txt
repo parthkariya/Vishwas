@@ -1,0 +1,268 @@
+import React, { useEffect } from "react";
+import "./InvestorDesk.css";
+import images from "../../constants/images";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { logDOM } from "@testing-library/react";
+
+const Data = [
+  {
+    id: 1,
+    title: "About Management & Committees",
+    logo: images.management,
+    child: [
+      {
+        id: 1,
+        title: "abc xyz",
+        docs: "",
+      },
+      {
+        id: 2,
+        title: "xyz cbr",
+        docs: "",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Financial Reports",
+    logo: images.financialreport,
+    child: [
+      {
+        id: 1,
+        title: "2024 Reports",
+        docs: require("../../asset/Financial Reports - 2024.pdf"),
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Listing Compliances",
+    logo: images.listing,
+    child: [],
+  },
+  {
+    id: 4,
+    title: "Annual Reports",
+    logo: images.annualreport,
+    child: [
+      {
+        id: 1,
+        title: "Annual Report for 2023-24",
+        docs: require("../../asset/Annual Reports.pdf"),
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Policies",
+    logo: images.policy,
+    child: [],
+  },
+  {
+    id: 6,
+    title: "Shareholding Pattern",
+    logo: images.shareholding,
+    child: [
+      {
+        id: 1,
+        title: "Vishwas Refoils & consumer ltd",
+        docs: require("../../asset/Shareholding Pattern_31.03.2024.pdf"),
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Notices & Announcement",
+    logo: images.announcement,
+    child: [],
+  },
+  {
+    id: 8,
+    title: "Prospectus",
+    logo: images.Prospectus,
+    child: [],
+  },
+  {
+    id: 9,
+    title: "Corporate Governance",
+    logo: images.corporategov,
+    child: [],
+  },
+  {
+    id : 10,
+    title : 'Annual Return',
+    logo : images.transaction,
+    child : [
+      {
+        id : 1, 
+        title:'Annual Return',
+        docs : require('../../asset/Annual Return - 2024.pdf')
+      }
+    ]
+  }
+];
+
+const InvestorDesk = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <>
+      <Helmet>
+        <title>Vishwas Refoils | Investor Desk</title>
+      </Helmet>
+      <div className="InvestorDesk_main">
+        <div>
+          <h1 className="red_heading" style={{ paddingTop: "1rem" }}>
+            Investor Desk
+          </h1>
+          {/* <h1 style={{ textAlign: "center" }}>We Are Comming Soon.</h1> */}
+        </div>
+
+        <div className="boxes_main">
+          {Data.map((item, index) => {
+            return(
+              <div className="boxes_inner">
+                <Link to={`/Investordesk/${item.id}`}  className="linkOpen">
+                <div>
+                  <img style={{height:'64px', width:'64px'}} src={item.logo} alt="logo"/>
+                </div>
+                <div>
+                  <h3 style={{textAlign:'center'}}>
+                    {item.title}
+                  </h3>
+                </div>
+                </Link>
+              </div>
+            )
+          })}
+          
+          {/* <div className="boxes_inner">
+            <div>
+              <img src={images.management} alt="" />{" "}
+            </div>
+            <div>
+              <h3 style={{ textAlign: "center" }}>
+                About Management & Committees
+              </h3>
+            </div>
+          </div> */}
+
+          {/* <div className="boxes_inner">
+            <Link to={"/InvestorDesk/2"} style={{ textDecoration: "none" }}>
+            <div className="linkOpen">
+              <a
+                target="_blank"
+                href={require("../../asset/Financial Reports - 2024.pdf")}
+                className="linkOpen"
+              >
+                <div>
+                  <img src={images.financialreport} alt="" />{" "}
+                </div>
+                <div>
+                  <h3 style={{ textAlign: "center" }}>Financial Reports</h3>
+                </div>
+              </a>
+            </div>
+            </Link>
+          </div> */}
+          {/* <div className="boxes_inner">
+            <div>
+              <img src={images.listing} alt="" />{" "}
+            </div>
+            <div>
+              <h3 style={{ textAlign: "center" }}>Listing Compliances</h3>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div className="linkOpen">
+              <a
+                href={require("../../asset/Annual Reports.pdf")}
+                target="_blank"
+                className="linkOpen"
+              >
+                <div>
+                  <img src={images.annualreport} alt="" />{" "}
+                </div>
+                <div>
+                  <h3 style={{ textAlign: "center" }}>Annual Reports</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div>
+              <img src={images.policy} alt="" />{" "}
+            </div>
+            <div>
+              <h3>Policies</h3>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div className="linkOpen">
+              <a
+                href={require("../../asset/Shareholding Pattern_31.03.2024.pdf")}
+                className="linkOpen"
+                target="_blank"
+              >
+                <div>
+                  <img src={images.shareholding} alt="" />{" "}
+                </div>
+                <div>
+                  <h3 style={{ textAlign: "center" }}>Shareholding Pattern</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div>
+              <img src={images.announcement} alt="" />{" "}
+            </div>
+            <div>
+              <h3 style={{ textAlign: "center" }}>Notices & Announcement</h3>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div>
+              <img src={images.Prospectus} alt="" />{" "}
+            </div>
+            <div>
+              <h3>Prospectus</h3>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div>
+              <img src={images.corporategov} alt="" />{" "}
+            </div>
+            <div>
+              <h3 style={{ textAlign: "center" }}>Corporate Governance</h3>
+            </div>
+          </div>
+          <div className="boxes_inner">
+            <div className="linkOpen">
+              <a
+                href={require("../../asset/Annual Return - 2024.pdf")}
+                target="_blank"
+                className="linkOpen"
+              >
+                <div>
+                  <img
+                    src={images.transaction}
+                    style={{ height: "64px", width: "64px" }}
+                    alt=""
+                  />{" "}
+                </div>
+                <div>
+                  <h3 style={{ textAlign: "center" }}>Annual Return</h3>
+                </div>
+              </a>
+            </div>
+          </div> */}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default InvestorDesk;

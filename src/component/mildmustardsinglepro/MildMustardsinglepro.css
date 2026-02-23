@@ -1,0 +1,9 @@
+.mild_mustard_single_pro_img_main{
+    width: 470px;
+}
+
+@media screen and (max-width:475px) {
+    .mild_mustard_single_pro_img_main{
+        width: 100%;
+    }
+}
