@@ -21,6 +21,11 @@ const Data = [
         title: "Financial Reports 2023-24",
         docs: require("../../asset/Financial Reports - 2024.pdf"),
       },
+      {
+        id: 2,
+        title: "Financial Reports 2024-25",
+        docs: require("../../asset/Financial Report_2024-25.pdf"),
+      },
     ],
   },
   {
@@ -38,6 +43,11 @@ const Data = [
         id: 1,
         title: "Annual Report 2023-24",
         docs: require("../../asset/Annual Reports.pdf"),
+      },
+      {
+        id: 2,
+        title: "Annual Report 2024-25",
+        docs: require("../../asset/Annual Report  2024-25.pdf"),
       },
     ],
   },
@@ -61,6 +71,81 @@ const Data = [
         title: "Archival Policy",
         docs: require("../../asset/Archival Policy.pdf"),
       },
+      {
+        id: 4,
+        title: "Nomination & Remuneration",
+        docs: require("../../asset/Nomination and Remuneration Policy.pdf"),
+      },
+      {
+        id: 5,
+        title: "Policy & Procedures for Inquiry",
+        docs: require("../../asset/Procedures for Inquiry in Case of Leak or Suspected Leak of UPSI.pdf"),
+      },
+      {
+        id: 6,
+        title: "Policy on Materiality",
+        docs: require("../../asset/Materiality Policies under ICDR Regulations 2018_group company, Creditors, Litigation.pdf"),
+      },
+      {
+        id: 7,
+        title: "Code of Conduct",
+        docs: require("../../asset/Code of Conduct.pdf"),
+      },
+      {
+        id: 8,
+        title: "Corporate Governance",
+        docs: require("../../asset/Corporate Governance.pdf"),
+      },
+      {
+        id: 9,
+        title: "Familiarization Programme",
+        docs: require("../../asset/Familiarisation_Programme.pdf"),
+      },
+      {
+        id: 10,
+        title: "Code of Fair Disclosure",
+        docs: require("../../asset/Code of Fair Disclosure of Unpublished Price Sensitive Information.pdf"),
+      },
+      {
+        id: 11,
+        title: "Board Diversity Policy",
+        docs: require("../../asset/Board Diversity Policy.pdf"),
+      },
+      {
+        id: 12,
+        title: "Vigil Mechanism",
+        docs: require("../../asset/Vigil Mechanism & Whistle Blower Policy.pdf"),
+      },
+      {
+        id: 13,
+        title: "Risk Assessment & Management Policy",
+        docs: require("../../asset/Risk Assessment and Management Policy.pdf"),
+      },
+      {
+        id: 14,
+        title: "Appointment of Independent Directors",
+        docs: require("../../asset/Terms and Conditions of Appointment of Independent Directors.pdf"),
+      },
+      {
+        id: 15,
+        title: "Policy on Materiality events",
+        docs: require("../../asset/Policy on_Materiality events.pdf"),
+      },
+      {
+        id: 16,
+        title: "Policy on Sexual Harassment",
+        docs: require("../../asset/Policy on Sexual Harassment.pdf"),
+      },
+      {
+        id: 17,
+        title: "Insider Trading Policy",
+        docs: require("../../asset/Insider Trading Policy.pdf"),
+      },
+      {
+        id: 18,
+        title: "Dealing with Related Party Transactions",
+        docs: require("../../asset/Policy on Dealing with Related Party Transactions.pdf"),
+      },
     ],
   },
   {
@@ -72,6 +157,11 @@ const Data = [
         id: 1,
         title: "Shareholding Pattern 31-03-2024",
         docs: require("../../asset/Shareholding Pattern_31.03.2024.pdf"),
+      },
+      {
+        id: 2,
+        title: "Shareholding Pattern 31-03-2025",
+        docs: require("../../asset/Shareholding Pattern 31-03-2025.pdf"),
       },
     ],
   },
