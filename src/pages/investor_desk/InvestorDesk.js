@@ -18,11 +18,16 @@ const Data = [
     child: [
       {
         id: 1,
+        title: "Financial Reports 2022-23",
+        docs: require("../../asset/Financial Reports 2022-23.pdf"),
+      },
+      {
+        id: 2,
         title: "Financial Reports 2023-24",
         docs: require("../../asset/Financial Reports - 2024.pdf"),
       },
       {
-        id: 2,
+        id: 3,
         title: "Financial Reports 2024-25",
         docs: require("../../asset/Financial Report_2024-25.pdf"),
       },
@@ -41,11 +46,16 @@ const Data = [
     child: [
       {
         id: 1,
+        title: "Annual Report 2022-23",
+        docs: require("../../asset/Annual Report 2022-23.pdf"),
+      },
+      {
+        id: 2,
         title: "Annual Report 2023-24",
         docs: require("../../asset/Annual Reports.pdf"),
       },
       {
-        id: 2,
+        id: 3,
         title: "Annual Report 2024-25",
         docs: require("../../asset/Annual Report  2024-25.pdf"),
       },
@@ -155,11 +165,16 @@ const Data = [
     child: [
       {
         id: 1,
+        title: "Shareholding Pattern 31-03-2023",
+        docs: require("../../asset/Shareholding Pattern 31-03-2023.pdf"),
+      },
+      {
+        id: 2,
         title: "Shareholding Pattern 31-03-2024",
         docs: require("../../asset/Shareholding Pattern_31.03.2024.pdf"),
       },
       {
-        id: 2,
+        id: 3,
         title: "Shareholding Pattern 31-03-2025",
         docs: require("../../asset/Shareholding Pattern 31-03-2025.pdf"),
       },
@@ -190,8 +205,18 @@ const Data = [
     child: [
       {
         id: 1,
+        title: "Annual Return 2022-23",
+        docs: require("../../asset/Annual Return 2022-23.pdf"),
+      },
+      {
+        id: 2,
         title: "Annual Return 2023-24",
         docs: require("../../asset/Annual Return - 2024.pdf"),
+      },
+      {
+        id: 3,
+        title: "Annual Return 2024-25",
+        docs: require("../../asset/Annual Return 2024-25.pdf"),
       },
     ],
   },
