@@ -118,7 +118,7 @@ const ContactUsCards = () => {
                 </div>
               </div>
             </div>
-            <div className="Card_headoffice_details Card_headoffice_details1">
+            {/* <div className="Card_headoffice_details Card_headoffice_details1">
               <div>
                 <h1
                   className="red_heading"
@@ -144,7 +144,7 @@ const ContactUsCards = () => {
                   <a href="tel:91577 53915" style={{ color: "#111" }}>
                     +91 91577 53915
                   </a>
-                  {/* <p>80 00 00 70 99</p> */}
+                  <p>80 00 00 70 99</p>
                 </div>
               </div>
               <div className="contact_no">
@@ -158,10 +158,10 @@ const ContactUsCards = () => {
                   >
                     vrclimited.2023@gmail.com
                   </a>
-                  {/* <p>vshwstc@gmail.com</p> */}
+                  <p>vshwstc@gmail.com</p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="Card_headoffice_details Card_headoffice_details1">
               <div>
                 <h1
@@ -173,12 +173,13 @@ const ContactUsCards = () => {
               </div>
               <div className="contact_address">
                 <p>
-                  Plot No. 17,
-                  <br /> Team Estate,
-                  <br /> Opp. Swadeshi Fire,
-                  <br /> Chachravadi Road,
-                  <br /> Moraiya,
-                  <br /> AHMEDABAD-382213-Gujarat
+                  BLOCK NO 97/A,
+                  <br /> SUB PLOT NO 17/B & BLOCK NO 98 ,
+                  <br /> SUB PLOT NO 17/A,
+                  <br /> VASNA,
+                  <br /> CHACHARVADI ,
+                  <br />
+                  SUB - DIST : SANAND, DIST: AHMEDABAD 382213 , Gujarat
                 </p>
               </div>
               <div className="contact_no">

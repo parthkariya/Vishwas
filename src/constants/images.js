@@ -97,7 +97,7 @@ import sunflower_hero from "../asset/sunflower_hero.png";
 import corn_hero_big from "../asset/corn_hero_big.png";
 import cotton_hero_big from "../asset/cotton_hero_big.png";
 import groundnut_hero_big from "../asset/groundnut_hero_change_big.png";
-import groundnut_hero_change_big from "../asset/groundnut_hero_change_big.png"; 
+import groundnut_hero_change_big from "../asset/groundnut_hero_change_big.png";
 import palmolean_hero_big from "../asset/palmolean_hero_change_big.png";
 import palmolean_hero_change_big from "../asset/palmolean_hero_change_big.png";
 import soya_hero_big from "../asset/soya_hero_big.png";
@@ -119,7 +119,9 @@ import shareholding from "../asset/shareholding.png";
 import announcement from "../asset/announcement.png";
 import Prospectus from "../asset/Prospectus.png";
 import corporategov from "../asset/corporategov.png";
-
+import committee from "../asset/committee.png";
+import Board_of_Directors from "../asset/Board of Directors.jpeg";
+import Investor_grievance from "../asset/Investor Grievance.jpeg";
 // import diff_size_img1 from "../asset/diff-size-img1.jpeg";
 // import diff_size_img2 from "../asset/diff-size-ing2.jpeg";
 // import diff_size_img3 from "../asset/diff-size-img3.jpeg";
@@ -153,7 +155,7 @@ import rice_bran_hero_bg from "../asset/rice_bran_hero_bg.png";
 import rice_bran_hero_bgg from "../asset/rice_bran_hero_bg.jpeg";
 import rice_barn_singpro1 from "../asset/rice_barn_singpro1.png";
 import rice_barn_singpro2 from "../asset/rice_barn_singpro2.png";
-import transaction from '../asset/transaction.png'
+import transaction from "../asset/transaction.png";
 
 export default {
   logo,
@@ -265,7 +267,9 @@ export default {
   announcement,
   Prospectus,
   corporategov,
-
+  committee,
+  Board_of_Directors,
+  Investor_grievance,
   rec_1,
   rec_2,
   rec_3,

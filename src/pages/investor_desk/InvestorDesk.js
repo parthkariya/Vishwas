@@ -101,58 +101,54 @@ const Data = [
         title: "Code of Conduct",
         docs: require("../../asset/Code of Conduct.pdf"),
       },
+
       {
         id: 8,
-        title: "Corporate Governance",
-        docs: require("../../asset/Corporate Governance.pdf"),
-      },
-      {
-        id: 9,
         title: "Familiarization Programme",
         docs: require("../../asset/Familiarisation_Programme.pdf"),
       },
       {
-        id: 10,
+        id: 9,
         title: "Code of Fair Disclosure",
         docs: require("../../asset/Code of Fair Disclosure of Unpublished Price Sensitive Information.pdf"),
       },
       {
-        id: 11,
+        id: 10,
         title: "Board Diversity Policy",
         docs: require("../../asset/Board Diversity Policy.pdf"),
       },
       {
-        id: 12,
+        id: 11,
         title: "Vigil Mechanism",
         docs: require("../../asset/Vigil Mechanism & Whistle Blower Policy.pdf"),
       },
       {
-        id: 13,
+        id: 12,
         title: "Risk Assessment & Management Policy",
         docs: require("../../asset/Risk Assessment and Management Policy.pdf"),
       },
       {
-        id: 14,
+        id: 13,
         title: "Appointment of Independent Directors",
         docs: require("../../asset/Terms and Conditions of Appointment of Independent Directors.pdf"),
       },
       {
-        id: 15,
+        id: 14,
         title: "Policy on Materiality events",
         docs: require("../../asset/Policy on_Materiality events.pdf"),
       },
       {
-        id: 16,
+        id: 15,
         title: "Policy on Sexual Harassment",
         docs: require("../../asset/Policy on Sexual Harassment.pdf"),
       },
       {
-        id: 17,
+        id: 16,
         title: "Insider Trading Policy",
         docs: require("../../asset/Insider Trading Policy.pdf"),
       },
       {
-        id: 18,
+        id: 17,
         title: "Dealing with Related Party Transactions",
         docs: require("../../asset/Policy on Dealing with Related Party Transactions.pdf"),
       },
@@ -196,7 +192,13 @@ const Data = [
     id: 9,
     title: "Corporate Governance",
     logo: images.corporategov,
-    child: [],
+    child: [
+      {
+        id: 1,
+        title: "Corporate Governance",
+        docs: require("../../asset/Corporate Governance.pdf"),
+      },
+    ],
   },
   {
     id: 10,
@@ -217,6 +219,42 @@ const Data = [
         id: 3,
         title: "Annual Return 2024-25",
         docs: require("../../asset/Annual Return 2024-25.pdf"),
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "Board Committees",
+    logo: images.committee,
+    child: [
+      {
+        id: 1,
+        title: "Board Committees",
+        docs: require("../../asset/Board Committees.pdf"),
+      },
+    ],
+  },
+  {
+    id: 12,
+    title: "Board of Directors",
+    logo: images.Board_of_Directors,
+    child: [
+      {
+        id: 1,
+        title: "Board of Directors",
+        docs: require("../../asset/Board of Directors.pdf"),
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: " Investor Grievance Redressal",
+    logo: images.Investor_grievance,
+    child: [
+      {
+        id: 1,
+        title: "Investor Grievance Redressal",
+        docs: require("../../asset/Investor Grievance Redressal.pdf"),
       },
     ],
   },
