@@ -19,7 +19,8 @@ const HeroAbout = () => {
         // alignItems: "center",
         paddingTop: "3rem",
         paddingBottom: "3rem",
-      }}>
+      }}
+    >
       <div className="AboutUS_main">
         <div className="AboutUS_desc_main">
           <div className="desc_main1">
@@ -43,14 +44,15 @@ const HeroAbout = () => {
                 supplier of various edible oils. The group offers a qualitative
                 range of edible oils, including Refined Sunflower Oil, Refined
                 Cottonseed Oil, Refined Corn Oil, Refined Soybean Oil, Active
-                Frying Oil, Filtered Mustard Oil Kachi Ghani,Refined Rice Bran Oil, Filtered Mild Mustard Oil and Refined Palmolein Oil. The group emphasizes the
-                belief that creating something of lasting value requires
-                persistent efforts over time. Vishwas Group continuously works
-                to upgrade its packaging facilities and conducts ongoing
-                research in the field of oils to improve the existing quality
-                standards. As a result of their efforts, the group has earned a
-                good reputation among their clients and for their branded
-                products.
+                Frying Oil, Filtered Mustard Oil Kachi Ghani,Refined Rice Bran
+                Oil, Filtered Mild Mustard Oil and Refined Palmolein Oil. The
+                group emphasizes the belief that creating something of lasting
+                value requires persistent efforts over time. Vishwas Group
+                continuously works to upgrade its packaging facilities and
+                conducts ongoing research in the field of oils to improve the
+                existing quality standards. As a result of their efforts, the
+                group has earned a good reputation among their clients and for
+                their branded products.
               </p>
             </div>
             {/* </AnimationOnScroll> */}
@@ -142,13 +144,13 @@ const HeroAbout = () => {
               substantial growth and achieved significant milestones and
               generated substantial revenue. It has gained a strong reputation
               in the market. On 27th July, 2022, the group further modified its
-              name to "VISHWAS REFOILS LLP" The addition of
-              "LLP" indicates a change in the group's legal structure to a
-              Limited Liability Partnership. On 18th March, 2023 the group
-              further enlarged its business by incorporating public limited
-              company.The information suggests that the company is expected to
-              continue its trajectory of success, aiming for further excellence
-              and accomplishments in the future.
+              name to "VISHWAS REFOILS LLP" The addition of "LLP" indicates a
+              change in the group's legal structure to a Limited Liability
+              Partnership. On 18th March, 2023 the group further enlarged its
+              business by incorporating public limited company.The information
+              suggests that the company is expected to continue its trajectory
+              of success, aiming for further excellence and accomplishments in
+              the future.
             </p>
             <p style={{ textAlign: "justify" }}>
               Vishwas Refoils & Consumer Limited is a family-owned business and
@@ -168,10 +170,11 @@ const HeroAbout = () => {
               Refoils & Consumer Limited has expanded its product range to
               include various refined oils, such as Refined Sunflower Oil, Corn
               Oil, Cotton Seed Oil, Soybean Oil, Palmolein Oil, Double Filtered
-              Groundnut Oil, Castor Oil, Filtered Mustard Oil Kachi Ghani, Refined Rice Bran Oil, Filtered Mild Mustard Oil and Active Frying Oil and even in all
-              the types of packaging varities ranging from 500 ml pouches, 500
-              ml bottles, 1 litre pouch, 1 litre bottle, 2 litre jar, 5 litre
-              jar, 15 litre tin and 15 kg tin.
+              Groundnut Oil, Castor Oil, Filtered Mustard Oil Kachi Ghani,
+              Refined Rice Bran Oil, Filtered Mild Mustard Oil and Active Frying
+              Oil and even in all the types of packaging varities ranging from
+              500 ml pouches, 500 ml bottles, 1 litre pouch, 1 litre bottle, 2
+              litre jar, 5 litre jar, 15 litre tin and 15 kg tin.
             </p>
           </div>
         </div>
@@ -180,32 +183,32 @@ const HeroAbout = () => {
             animateIn="fadeInLeft"
             animateOut="animate__bounceOutRight"
           > */}
-          <div className="certificate_img1_main">
+          {/* <div className="certificate_img1_main">
             <img
               src={images.certificate1}
               alt=""
               className="certificate_img"
             />
-          </div>
+          </div> */}
           {/* </AnimationOnScroll> */}
           {/* <AnimationOnScroll
             animateIn="fadeInRight"
             animateOut="animate__bounceOutRight"
           > */}
-          <div className="certificate_img2_main">
+          {/* <div className="certificate_img2_main">
             <img
               src={images.certificate2}
               alt=""
               className="certificate_img"
             />
-          </div>
-          <div className="certificate_img3_main">
+          </div> */}
+          {/* <div className="certificate_img3_main">
             <img
               src={images.about_certificate_4}
               alt="certificate"
               className="certificate_img"
             />
-          </div>
+          </div> */}
           {/* </AnimationOnScroll> */}
         </div>
       </div>
