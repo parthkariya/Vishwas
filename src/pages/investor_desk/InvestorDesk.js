@@ -184,9 +184,20 @@ const Data = [
   },
   {
     id: 8,
-    title: "Prospectus",
+    title: "Offer Documents",
     logo: images.Prospectus,
-    child: [],
+    child: [
+      {
+        id: 1,
+        title: "DRHP",
+        docs: require("../../asset/DRHP.pdf"),
+      },
+      {
+        id: 2,
+        title: "Draft Abridged Prospectus",
+        docs: require("../../asset/Draft Abridged Prospectus.pdf"),
+      },
+    ],
   },
   {
     id: 9,
