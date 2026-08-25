@@ -269,6 +269,30 @@ const Data = [
       },
     ],
   },
+  {
+    id: 14,
+    title: "Industry Report",
+    logo: images.industry_report,
+    child: [
+      {
+        id: 1,
+        title: "Industry Report",
+        docs: require("../../asset/Industry Report.pdf"),
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "Material Creditors",
+    logo: images.material_creditor,
+    child: [
+      {
+        id: 1,
+        title: " Material Creditors -March 2026",
+        docs: require("../../asset/Material Creditors -March 2026.pdf"),
+      },
+    ],
+  },
 ];
 
 const InvestorDesk = () => {

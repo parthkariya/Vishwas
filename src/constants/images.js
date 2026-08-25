@@ -122,6 +122,8 @@ import corporategov from "../asset/corporategov.png";
 import committee from "../asset/committee.png";
 import Board_of_Directors from "../asset/Board of Directors.jpeg";
 import Investor_grievance from "../asset/Investor Grievance.jpeg";
+import industry_report from "../asset/industry_report.png";
+import material_creditor from "../asset/material_creditor.png";
 // import diff_size_img1 from "../asset/diff-size-img1.jpeg";
 // import diff_size_img2 from "../asset/diff-size-ing2.jpeg";
 // import diff_size_img3 from "../asset/diff-size-img3.jpeg";
@@ -270,6 +272,8 @@ export default {
   committee,
   Board_of_Directors,
   Investor_grievance,
+  industry_report,
+  material_creditor,
   rec_1,
   rec_2,
   rec_3,
