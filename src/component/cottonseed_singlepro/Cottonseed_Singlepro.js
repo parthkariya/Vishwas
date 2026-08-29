@@ -16,7 +16,8 @@ const Cottonseed_Singlepro = () => {
         alignItems: "center",
         paddingTop: "3rem",
         paddingBottom: "3rem",
-      }}>
+      }}
+    >
       <div className="product_main">
         <div className="pro_img_sunflower pro_img_cottonseed_main">
           <img
@@ -58,8 +59,8 @@ const Cottonseed_Singlepro = () => {
                   <img src={images.bottle} alt="" className="packing_icons" />
                 </div>
                 <div>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>500ML</h5>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>1L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>500 ML</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>1 L</h5>
                 </div>
               </div>
               <div>
@@ -67,8 +68,11 @@ const Cottonseed_Singlepro = () => {
                   <img src={images.pouch} alt="" className="packing_icons" />
                 </div>
                 <div>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>500ML</h5>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>1L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>500 ML</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>1 L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>790 G</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>830 G</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>850 G</h5>
                 </div>
               </div>
               <div>
@@ -80,8 +84,9 @@ const Cottonseed_Singlepro = () => {
                   />
                 </div>
                 <div>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>2L</h5>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>5L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>2 L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>5 L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>4.1 KG</h5>
                   {/* <h5 style={{ margin: "4px", textAlign: "center" }}>15L</h5> */}
                 </div>
               </div>
@@ -94,7 +99,7 @@ const Cottonseed_Singlepro = () => {
                   />
                 </div>
                 <div>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>15L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>15 L</h5>
                 </div>
               </div>
               <div>
@@ -102,16 +107,23 @@ const Cottonseed_Singlepro = () => {
                   <img src={images.tap_jar} alt="" className="packing_icons" />
                 </div>
                 <div>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>15L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>15 L</h5>
                 </div>
               </div>
               <div>
                 <div>
-                  <img src={images.container_15kg} alt="" className="packing_icons" />
+                  <img
+                    src={images.container_15kg}
+                    alt=""
+                    className="packing_icons"
+                  />
                 </div>
                 <div>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>15L</h5>
-                  <h5 style={{ margin: "4px", textAlign: "center" }}>15KG</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>15 L</h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>
+                    14.8 KG
+                  </h5>
+                  <h5 style={{ margin: "4px", textAlign: "center" }}>15 KG</h5>
                 </div>
               </div>
               {/* <div>
