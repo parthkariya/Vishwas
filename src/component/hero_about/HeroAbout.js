@@ -40,7 +40,7 @@ const HeroAbout = () => {
             <div className="">
               <p style={{ textAlign: "justify" }}>
                 Vishwas Group is an ISO 22000:2005 and 9001:2008 certified
-                group, established in 1994. The group is recognized as a leading
+                group, established in 1996. The group is recognized as a leading
                 supplier of various edible oils. The group offers a qualitative
                 range of edible oils, including Refined Sunflower Oil, Refined
                 Cottonseed Oil, Refined Corn Oil, Refined Soybean Oil, Active
@@ -134,7 +134,7 @@ const HeroAbout = () => {
               In 1992, Shri Daulatram Sadarangmal Mandhiyani started a small
               startup called "Vishwas Tea Co." Initially, the business focused
               on tea. The refined oil business gained significant success. By
-              1994, the group solely focused on the oil business and operated
+              1996, the group solely focused on the oil business and operated
               under the name "Vishwas Tea Co." The group continued to grow and
               expand its different refined edible oils. It received positive
               responses from clients and became a leading group in the market,
