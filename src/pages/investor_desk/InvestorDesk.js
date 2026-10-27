@@ -31,6 +31,11 @@ const Data = [
         title: "Financial Reports 2024-25",
         docs: require("../../asset/Financial Report_2024-25.pdf"),
       },
+      {
+        id: 4,
+        title: "Financial Reports 2025-26",
+        docs: require("../../asset/Financial Reports 2025-26.pdf"),
+      },
     ],
   },
   {
@@ -173,6 +178,11 @@ const Data = [
         id: 3,
         title: "Shareholding Pattern 31-03-2025",
         docs: require("../../asset/Shareholding Pattern 31-03-2025.pdf"),
+      },
+      {
+        id: 4,
+        title: "Shareholding Pattern 31-03-2026",
+        docs: require("../../asset/Shareholding Pattern 31-03-2026.pdf"),
       },
     ],
   },
