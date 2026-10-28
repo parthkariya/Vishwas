@@ -64,6 +64,11 @@ const Data = [
         title: "Annual Report 2024-25",
         docs: require("../../asset/Annual Report  2024-25.pdf"),
       },
+      {
+        id: 4,
+        title: "Annual Report 2025-26",
+        docs: require("../../asset/Annual Report 2025-26.pdf"),
+      },
     ],
   },
   {
